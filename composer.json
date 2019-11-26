@@ -1,0 +1,22 @@
+{
+  "name": "root/orm",
+  "authors": [
+    {
+      "name": "Kamil Ślósarz",
+      "email": "kamil.slosarz@netart.pl"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^7.5",
+    "phpunit/dbunit": "^4.0",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "mockery/mockery": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Orm\\": "src/",
+      "Test\\": "tests/src"
+    }
+  }
+}
